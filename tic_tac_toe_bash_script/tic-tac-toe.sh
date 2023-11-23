@@ -146,7 +146,9 @@ current_move() {
       echo ""
       echo "RESETTING THE GAME. PROGRESS WON'T BE SAVED."
       reset_game
-      symbol='X'
+      if [[ "$symbol" == 'O' ]]; then
+        symbol='X'
+      fi
     elif [[ ! $position =~ ^[1-9]$ ]]; then
       echo "Invalid input. Choose a position between 1 and 9 OR exit/rest the game (e/r)."
     elif [[ "${board[position - 1]}" == 'X' || "${board[position - 1]}" == 'O' ]]; then
