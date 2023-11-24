@@ -12,6 +12,12 @@ Bash script for playing tic-tac-toe :smiley:
 
 
 ### How to Play:
+- Download the file named ***tic-tac-toe.sh*** (or create new file and copy content).
+- Run below command to grant execution permissions to the file.
+  ```
+  chmod +x tic-tac-toe.sh
+  ```
+
 - Run the script and follow the prompts to select the play mode or game operation.
 
   ```
