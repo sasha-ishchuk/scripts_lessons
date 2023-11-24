@@ -13,11 +13,11 @@ Here, you'll find my solutions, scripts, and demos related to various scripting 
 
 The repository is organized into various directories, each dedicated to a specific scripting language or a set of related exercises. 
 
-Here's the list of used scripting languages:
+Here's the list of used scripting languages (*to be updated later*):
 * Bash
 * Python
 
 
 ---
 
-I hope my solutions and notes prove helpful to others navigating scripting languages!
+I hope my solutions prove helpful to others navigating scripting languages!
