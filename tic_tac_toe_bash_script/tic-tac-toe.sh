@@ -28,7 +28,9 @@ reset_game() {
       board[$i]=$((i + 1))
   done
   moves_count=0
-  rm "$save_file"
+  if [ -f "$save_file" ]; then
+    rm "$save_file"
+  fi
 }
 
 # Create file to save the game
@@ -59,7 +61,9 @@ save_game() {
       save_to_file
   else
     echo "Game path has no write permissions. File could not be saved."
-    rm "$save_file"
+    if [ -f "$save_file" ]; then
+      rm "$save_file"
+    fi
   fi
 }
 
@@ -74,7 +78,9 @@ prompt_for_save() {
         save_game
         break ;;
       no)
-        rm "$save_file"
+        if [ -f "$save_file" ]; then
+          rm "$save_file"
+        fi
         break ;;
       *)
       echo 'Please select 1 (yes) or 2 (no).' ;;
