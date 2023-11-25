@@ -1,6 +1,8 @@
 ## Tic-Tac-Toe Bash Game
 Bash script for playing tic-tac-toe :smiley:
 
+### **Link to demo:** *[click here](https://drive.google.com/file/d/1goZMQqWmrJ5_KiaFxrwmJYiNdWgLjrpN/view?usp=sharing)*
+
 ### Play Modes:
 1. Play with another player on the same PC
 2. Play against the computer
