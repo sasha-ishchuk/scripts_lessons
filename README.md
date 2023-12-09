@@ -9,10 +9,6 @@ Hello there! :smile:
 Here, you'll find my solutions, scripts, and demos related to various scripting languages covered in the course.
 
 
-## Repository Structure
-
-The repository is organized into various directories, each dedicated to a specific scripting language or a set of related exercises. 
-
 Here's the list of used scripting languages (*to be updated later*):
 * Bash
   * project in this repo 
