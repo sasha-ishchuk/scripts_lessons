@@ -15,7 +15,9 @@ The repository is organized into various directories, each dedicated to a specif
 
 Here's the list of used scripting languages (*to be updated later*):
 * Bash
+  * project in this repo 
 * Python
+  * link to python project: https://github.com/sasha-ishchuk/rasa_chatbot 
 
 
 ---
