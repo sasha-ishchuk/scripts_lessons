@@ -11,9 +11,11 @@ Here, you'll find my solutions, scripts, and demos related to various scripting 
 
 Here's the list of used scripting languages (*to be updated later*):
 * Bash
-  * project in this repo 
+  * project in this repo (folder *tic_tac_toe_bash_script*)
 * Python
-  * link to python project: https://github.com/sasha-ishchuk/rasa_chatbot 
+  * link to python project: https://github.com/sasha-ishchuk/rasa_chatbot
+* JavaScript
+  * project in this repo (folder *minecraft_castle_js*)
 
 
 ---
